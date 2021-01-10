@@ -1,0 +1,152 @@
+body{
+    font-family: latha;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.45),rgba(0,0,0,0.38),rgba(0,0,0,0))
+        ,url(download.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box{width: 900px;
+float: right;
+border: 1px soild black;}
+
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.box ul li a{text-decoration: none;
+color: darkgrey;
+}
+
+.box ul li:hover{background-color: black;
+}
+
+.box ul li a:hover{color: white;
+}
+
+.welcome{width: 300px;
+height: 600px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.welcome h1{text-align: center;
+text-transform: uppercase;
+font-weight: 100px;
+}
+
+.welcome h4{
+    text-align: justify;
+    color: darkgrey;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.welcome h2{
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.opt form , input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+   align-content: center;
+}
+
+form, input[type="submit"]:hover{background-color:black;}
+
+.left h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:sandybrown;
+    letter-spacing: 2px;
+}
+
+.left p{
+    font-size: 18px;
+    line-height: 20px;   
+    color: white;
+    opacity: 1;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    opacity: 0.75;
+    padding: 15px;  
+}
+
+
+
+.column{
+    background-color: white;
+    border-radius:10px;  
+    flex-basis: 33%;
+   
+}
+
+.left{
+    padding: 15px 25px;
+    
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 390px;
+  height: 490px;
+  opacity: 1;
+}
+
+.non{
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 8px;
+}
+.left h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:yellowgreen;
+    letter-spacing: 2px;
+}
+
+.left h3{
+    font-size: 21px;
+    
+}
+
+.Menu{
+    text-align: center;
+}
+
+.gallery{
+    opacity: 1;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
